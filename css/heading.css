@@ -1,0 +1,32 @@
+h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 80px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+    -webkit-animation: h1 8s infinite; 
+    animation: h1 8s infinite;
+  }  
+  /* Chrome, Safari, Opera */
+  @-webkit-keyframes h1 {
+      0%   {text-shadow: 0 0 3px rgb(0, 255, 242); color: #fff;}
+      25%  {text-shadow: 0 0 12px rgb(0, 255, 242);}
+      50%  {text-shadow: 0 0 20px rgb(0, 255, 242); color: rgb(4, 211, 211);}
+      75%  {text-shadow: 0 0 12px rgb(0, 255, 242);;}
+      100% {text-shadow: 0 0 3px rgb(0, 255, 242);; color: #fff;}
+  }
+  
+ 
+  
+  /* Internet Explorer */
+  
+  @keyframes h1 {
+      0%   {text-shadow: 0 0 3px rgb(0, 255, 242);; color: #fff;}
+      25%  {text-shadow: 0 0 12px rgb(0, 255, 242);;}
+      50%  {text-shadow: 0 0 20px rgb(0, 255, 242);; color: rgb(4,211,211);}
+      75%  {text-shadow: 0 0 12px rgb(0, 255, 242);;}
+      100% {text-shadow: 0 0 3px rgb(0, 255, 242);; color: #fff;}
+  }
+  
